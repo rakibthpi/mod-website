@@ -1054,7 +1054,7 @@
     -webkit-overflow-scrolling: touch;
   }
   .compatibility-table-container table {
-    min-width: 500px;
+    min-width: 600px;
     border-collapse: collapse;
     border: 1px solid #3a3a3a;
     border-radius: 6px;
@@ -1062,9 +1062,40 @@
   .fitment-notes-label span {
     font-size: 16px;
   }
+  .slider-padding-system {
+    padding-left: 20px;
+  }
+  .carb-logo {
+    padding-bottom: 10px;
+  }
+  .carb-logo img {
+    width: 180px;
+  }
+  .info-install p {
+    font-size: 12px;
+  }
 }
 
 @media all and (max-width: 575px) {
+  .ieocbc_button .angle-btn span {
+    font-size: 14px;
+  }
+  .angle-btn {
+    padding: 10px 30px;
+  }
+  .angle-btn span {
+    font-size: 14px;
+  }
+  .your_next_model_card_text {
+    height: 160px;
+  }
+  .your_next_model_card_text p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .slider-padding-system {
+    padding-left: 0px;
+  }
   .container,
   .container-fluid,
   .container-lg,
@@ -1167,6 +1198,7 @@
     -o-object-fit: cover;
     object-fit: cover;
   }
+
   .ie_feature_slider_title h1 {
     font-size: 27px;
     line-height: 35px;

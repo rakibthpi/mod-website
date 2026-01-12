@@ -2503,7 +2503,9 @@ h4 {
 }
 /*=================  End Mod Gurus Section  =================*/
 /*=================  Start your_next_model Section  =================*/
-
+.slider-padding-system{
+  padding-left: 30px;
+}
 .your_next_model {
   padding: 140px 0;
   background-color: #000000;

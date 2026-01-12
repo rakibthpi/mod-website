@@ -65,13 +65,13 @@ $(document).ready(function () {
           nav: false,
         },
         700: {
-          items: 1.5,
+          items: 1.2,
           nav: false,
         },
         1400: {
           nav: false,
           items: 1.6,
-          margin: 56,
+          margin: 26,
         },
       },
     });
@@ -210,7 +210,10 @@ $(document).ready(function () {
       margin: 20,
       responsive: {
         0: {
-          items: 1.5,
+          items: 1,
+        },
+        480: {
+          items: 1.2,
         },
         900: {
           items: 1.5,
