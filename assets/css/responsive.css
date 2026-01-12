@@ -1,0 +1,1401 @@
+@media all and (max-width: 1600px) {
+  .product-review-system-count-single::after {
+    right: -14px;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .right-column {
+    width: 30%;
+  }
+  .left-column {
+    width: 70%;
+  }
+  .thumbnail {
+    width: 110px;
+    height: 67px;
+  }
+  .sidebar {
+    width: 123px;
+  }
+  .section_padding2 {
+    padding: 0 26px;
+  }
+}
+@media all and (max-width: 1199px) {
+  .ie_offer {
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ie_offer_img {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    text-align: center;
+  }
+  .ie_discover_audis_potential_contents {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 55px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .ie_feature_slider_single {
+    max-width: 525px;
+  }
+  .owl-theme .owl-prev {
+    left: -120px;
+  }
+  .owl-theme .owl-next {
+    right: -120px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .ie_discover_audis_potential_title p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .ie_how_does_it_work_contents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .iehdiw_content_img {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .iehdiw_content_img img {
+    max-width: 400px;
+  }
+  .ie_your_new_audi_contents .btn_style {
+    font-size: 48px !important;
+    padding: 35px 40px !important;
+    margin: 40px 0px !important;
+  }
+  .ie_your_new_audi_contents h2 {
+    font-size: 36px;
+  }
+  .ie_your_new_audi_contents p {
+    font-size: 36px;
+    line-height: 35px;
+    margin-top: 5px;
+  }
+  .owl-carousel .owl-dots.disabled,
+  .owl-carousel .owl-nav.disabled {
+    display: block;
+  }
+  .ie_have_questions_contents img {
+    max-width: 500px;
+  }
+  .ie_have_questions_contents a {
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+  }
+
+  .banner_img {
+    position: inherit;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .ie_xodus_banner {
+    margin: auto;
+  }
+  .ie_xodus_banner_main {
+    padding: 0px 0px 85px 0px;
+  }
+  .member a img {
+    width: 100px;
+  }
+  .product-review-system-amount .btn_style {
+    font-size: 14px;
+    line-height: 10px;
+    padding: 16px 15px;
+  }
+  .product-content {
+    flex-direction: column;
+  }
+  .sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    justify-content: center;
+  }
+  .sidebar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  .product-video-title {
+    margin-bottom: 0px;
+    width: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .sidebar-item {
+    margin-bottom: 0px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  .thumbnail {
+    width: 110px;
+    height: 67px;
+    display: block;
+  }
+  .left-column {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mobile-show-product-review {
+    background-image: url("../images/ie-mailer/feature-bg.png");
+    background-size: 27px 27px;
+    position: relative;
+    z-index: 2;
+  }
+  .mobile-show-product-review::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: -1;
+  }
+  .mobile-btn-section {
+    border-bottom: 4px solid #fe4819;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #231f20;
+  }
+  .mobile-btn-section .download-btn {
+    margin-right: -14px;
+    margin-bottom: -7px;
+  }
+  .mobile-btn-section .product-review-system-logo {
+    padding-left: 24px;
+  }
+  .intake_menu ul li a {
+    line-height: 14px;
+    letter-spacing: 2.84px;
+    font-size: 14px;
+  }
+  .sidebar-line {
+    display: none;
+  }
+  .active-indicator {
+    display: none;
+  }
+  .product-review-text-top {
+    text-align: center;
+  }
+  .product-review-system-amount-logo {
+    justify-content: center;
+  }
+  .product-review-system-amount-card {
+    justify-content: center;
+  }
+  .header-mobile-card-design {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateY(-58px);
+  }
+}
+
+@media all and (max-width: 991px) {
+  .menu {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    background: #000;
+    border-top: 1px solid #dddddd24;
+    display: none;
+  }
+  .menu ul {
+    gap: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .menu_icon {
+    display: block;
+  }
+  .btn_style {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 18px 22px;
+  }
+  .ieocbc_payments ul li img {
+    width: 24px;
+  }
+  .ie_mailer_banner h3 {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .ieoc_box_title p {
+    font-size: 20px;
+    padding: 12px 0px;
+  }
+  .ie_offer_content_bottom p {
+    font-size: 20px;
+  }
+  .ie_offer_content_bottom a {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .ie_offer_img img {
+    max-width: 300px;
+  }
+  .ie_feature_slider_single {
+    max-width: 410px;
+  }
+  .ie_feature_slider_single p {
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 10px;
+    border-left: 3px solid #4f4c4d;
+  }
+  .ie_your_new_audi_contents .btn_style {
+    font-size: 36px !important;
+    padding: 25px 40px !important;
+  }
+  .ie_your_new_audi_contents h2 {
+    font-size: 32px;
+  }
+  .ie_your_new_audi_contents p {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .ie_testimonials_item {
+    max-width: 315px;
+  }
+  .ie_have_questions_contents img {
+    max-width: 400px;
+    margin-bottom: 35px;
+  }
+  .ie_have_questions_contents {
+    margin-top: 90px;
+  }
+  .ie_have_questions_contents a {
+    width: 260px;
+  }
+
+  .xodus_ocbc_button a {
+    padding: 20px 30px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .xodus_ocbc_pricing h2 {
+    font-size: 48px;
+  }
+  .xodus_how_does_it_work_main .ie_feature_slider_title img {
+    width: 150px;
+    margin: 30px 0px 30px 0px;
+  }
+  .iehdiwc_bottom_single h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .iehdiwc_bottom_single p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 12px;
+  }
+  .xodus_body h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .xodus_how_does_it_work_main .ie_feature_slider_title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .iehdiwc_single_contents p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 11px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title p {
+    font-size: 30px;
+    line-height: 42px;
+    margin-top: 40px;
+  }
+  .xodus_your_new_audi_main .ie_your_new_audi_contents img {
+    width: 150px;
+  }
+  .member {
+    bottom: 35px;
+    right: 35px;
+  }
+  .xodus_discover_audis_potential_main .ie_discover_audis_potential_title h2 {
+    line-height: 48px;
+  }
+  .xodus_feature_slider_main .ie_feature_slider_single p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents img {
+    max-width: 450px;
+  }
+  .intake_menu.d-block.d-lg-none {
+    padding-top: 16px;
+  }
+  .future-highlights h2 {
+    font-size: 24px;
+    font-family: QType;
+    padding-bottom: 10px;
+  }
+  .future-highlights-text-p {
+    font-family: "DIN 2014";
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .future-highlights {
+    padding: 80px 0px;
+  }
+  .design-main-text-h1 {
+    padding-top: 90px;
+    font-size: 34px;
+  }
+  .design-row {
+    padding-top: 60px;
+  }
+  .design-text p {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  .design-text h4 {
+    font-size: 20px;
+  }
+  .design-btn-area h3 {
+    font-size: 20px;
+  }
+  .machine-slider .owl-carousel .owl-nav button.owl-next,
+  .machine-slider .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+  .machine-slider .owl-theme .owl-nav {
+    margin-top: 30px;
+  }
+  .performance-main {
+    padding: 100px 0 30px 0;
+  }
+  .performance-main-text-h1 {
+    font-size: 34px;
+  }
+  .chart-single-card h3 {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .chart-single-card-text {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .chart-single-card-text span:first-child {
+    width: 87px;
+  }
+  .chart-worning-single {
+    padding: 16px 16px;
+  }
+  .chart-worning-single p {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+  .installation-main {
+    padding-top: 121px;
+    padding-bottom: 0px;
+  }
+  .installation-text h1 {
+    letter-spacing: 4px;
+    font-size: 34px;
+  }
+  .compatibility-text h1 {
+    font-size: 34px;
+    letter-spacing: 4px;
+  }
+  .menu ul li {
+    width: 100%;
+  }
+  .menu ul li a {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 1px 20px;
+  }
+  .menu ul {
+    gap: 5px;
+  }
+  .intake_menu ul li a::before {
+    display: none;
+  }
+  .intake_menu ul li:first-child a {
+    margin-left: 0;
+  }
+  .intake_menu ul li a {
+    font-size: 15px;
+    color: #f1efee;
+    font-weight: 500;
+    padding: 4px 20px;
+    display: inline-block;
+  }
+  .sidebar {
+    justify-content: left;
+  }
+  .product-review-system-card h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 0px;
+  }
+  .product-review-system-card p {
+    font-size: 14px;
+  }
+  .product-review-text-top {
+    padding: 12px 10px 10px 10px;
+  }
+  .product-review-system-card-main {
+    padding: 16px 10px 10px 10px;
+  }
+  .section_padding2 {
+    padding: 0 10px;
+  }
+  .machine-slider {
+    padding: 0;
+    margin: 50px 0;
+  }
+  .compatibility-table-title h1 {
+    font-size: 38px;
+    line-height: 39px;
+    letter-spacing: 4px;
+  }
+  .slider-overlay h3 {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+  }
+  .airflow-img img {
+    max-height: 220px;
+    object-fit: contain;
+  }
+  .airflow-img {
+    padding-bottom: 30px;
+  }
+  .velocity-title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .velocity-description {
+    font-size: 18px;
+    padding-top: 13px;
+  }
+  .velocity-bottom .velocity-overlay {
+    padding-top: 0;
+  }
+  .compatibility-table-title h1 {
+    text-align: center;
+  }
+  .airflow-overlay {
+    padding-bottom: 220px !important;
+  }
+  .chart-count {
+    padding: 8px 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header-mobile-card-design {
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateY(-58px);
+  }
+  .ie_mailer_banner_main {
+    background: url(../images/ie-mailer/ie-banner.jpg) no-repeat scroll 42% 47% / cover;
+  }
+  .ieocbc_pricing_and_button {
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ieocbc_review_and_payments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .ieocbc_payments p {
+    text-align: center;
+  }
+  .ieocbc_pricing {
+    gap: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .ieocbc_pricing_new {
+    text-align: center;
+  }
+  .ieoc_box_contents {
+    padding: 40px 72px 40px 72px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .ie_feature_slider_single {
+    max-width: 380px;
+  }
+  .iehdiwc_single_contents p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+  .iehdiw_content_img img {
+    max-width: 300px;
+  }
+  .ie_xodus_banner h2 {
+    font-size: 42px;
+    line-height: 45px;
+  }
+  .ie_xodus_banner p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 25px 0px;
+  }
+  .ie_xodus_banner img {
+    width: 150px;
+  }
+  .xodus_ocbc_pricing_and_button {
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .xodus_offer_main .ieoc_box_title p {
+    font-size: 20px;
+    padding: 12px 0px;
+  }
+  .xodus_body h2 {
+    font-size: 40px;
+  }
+  .xodus_discover_audis_potential_main .ie_discover_audis_potential_title h2 {
+    line-height: 44px;
+  }
+  .xodus_discover_audis_potential_main .ie_discover_audis_potential_title p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .xodus_body h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .xodus_feature_slider_main .ie_feature_slider_single p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title p {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 35px;
+  }
+  .ie_have_questions_contents {
+    margin-top: 60px;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents img {
+    max-width: 350px;
+    margin-bottom: 25px;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents h3 {
+    color: #efefe6;
+    margin: 16px 0px 42px 0px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .iehdiw_contents_bottom {
+    gap: 30px;
+  }
+  .iehdiwc_bottom_single {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc((100% / 2) - 15px);
+    flex: 0 0 calc((100% / 2) - 15px);
+  }
+  .xodus_ocbc_pricing {
+    text-align: center;
+  }
+  .future-highlights {
+    padding: 45px 0px;
+  }
+  .future-highlights h2 {
+    font-size: 22px;
+  }
+  .design-text h4 {
+    font-size: 20px;
+  }
+  .design-row {
+    padding-top: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .design-img-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .design-text {
+    padding-left: 0px;
+  }
+  .machine-slider .ie_feature_slider_single h3 {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+  }
+  .machine-slider .ie_feature_slider_single p {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "DIN 2014";
+  }
+  .performance-main {
+    padding: 75px 0 20px 0;
+  }
+  .performance-main-text-h1 {
+    font-size: 24px;
+  }
+  .chart-head h3 {
+    padding-bottom: 23px;
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+  .chart-count {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+  }
+  .chart-count {
+    border-left: 0 !important;
+    border: 1px solid #4f4c4d !important;
+  }
+  .chart-single-card h3 {
+    font-size: 8px;
+  }
+  .chat-count-intake {
+    border-right: 0px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .chat-count-intake span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #00b38a;
+    font-size: 8px;
+  }
+  .chat-count-increase h4 {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .chat-count-increase p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .chart-count-danger .chat-count-intake span {
+    background: #fe4819;
+  }
+  .chart-bar-area {
+    padding: 0;
+    border: none;
+  }
+  .chart-bar-prograss {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .chart-single-card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(50% - 10px);
+    flex: 0 0 calc(50% - 10px);
+  }
+  .chart-single-card.chart-count-white {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .design-main-text-h1 {
+    text-align: center;
+  }
+  .installation-text h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .installation-text p {
+    padding-top: 24px;
+  }
+  .installation-main {
+    padding-top: 88px;
+  }
+  .installation-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .installation-time-span {
+    font-size: 16px;
+  }
+  .installation-time-single h4 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #4f4c4d;
+  }
+  .installation-time-single p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .installation-time-single p img {
+    width: 12px;
+    padding-bottom: 3px;
+    padding-right: 0;
+  }
+  .download-btn {
+    padding: 10px 30px;
+  }
+  .download-btn span {
+    font-size: 12px;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents {
+    padding: 32px 16px;
+    border: none;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents h2 {
+    padding: 14px 0;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents h3 {
+    margin: 0px 0px 0px 0px;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents a {
+    width: 162px;
+    height: 47px;
+    font-size: 12px;
+    border: 2px solid transparent;
+  }
+  .ie_have_questions_main2 {
+    padding: 60px 0;
+  }
+  .compatibility-text h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents img {
+    max-width: 320px;
+  }
+  .compatibility {
+    gap: 35px;
+  }
+  .your_next_model {
+    padding: 13px 0;
+  }
+  .your_next_model_text_head h3 {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  .your_next_model_card_text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .your_next_model .btn_style {
+    font-size: 14px;
+    padding: 5px 17px;
+    line-height: 20px;
+  }
+  .your_next_model_text {
+    padding: 60px 1px 100px 1px;
+  }
+  .icon-menu {
+    gap: 26px;
+  }
+  .menu-item {
+    font-size: 10px;
+  }
+  .menu-item i {
+    font-size: 18px;
+  }
+  .machine-slider .ie_feature_slider_single > img {
+    height: 200px !important;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+    background: #d9d9d9;
+  }
+  .machine-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0px;
+  }
+  .your_next_model_text {
+    border: none;
+  }
+  .chart-wornign {
+    padding-top: 24px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chart-worning-single {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .mobile-show-product-review::after {
+    background: linear-gradient(180deg, rgb(0 0 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  }
+}
+
+@media all and (max-width: 575px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .header_main {
+    padding: 20px 5px;
+  }
+  .header_icon ul {
+    gap: 20px;
+  }
+  .header_icon ul li a i {
+    font-size: 20px;
+  }
+  .ie_mailer_banner_main {
+    background: url(../images/ie-mailer/ie-banner.jpg) no-repeat scroll -55px 0px / 504px;
+    padding: 80px 0px 0px 0px;
+  }
+  .ie_offer_main {
+    padding: 80px 0px 55px 0px;
+  }
+  .ieoc_box_contents {
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+  }
+  .ieoc_box_title p {
+    font-size: 16px;
+  }
+  .btn_style {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 17px 45px;
+  }
+  .ieocbc_review ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .ie_offer_img img {
+    max-width: 270px;
+  }
+  .ie_offer {
+    gap: 10px;
+  }
+  .ie_offer_content_bottom p {
+    font-size: 16px;
+  }
+  .ie_offer_content_bottom a {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .ie_discover_audis_potential_title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .ie_discover_audis_potential_single p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+  .ie_discover_audis_potential_single h4 {
+    font-size: 20px;
+  }
+  .ie_discover_audis_potential_contents {
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .ie_feature_slider_main {
+    padding: 75px 0px 75px 0px;
+    background-size: 27px 27px;
+  }
+  .ie_feature_slider_single {
+    max-width: 100%;
+    width: 100%;
+  }
+  .ie_testimonials_item {
+    max-width: 100%;
+  }
+  /*.ie_feature_slider_contents .owl-item.active {
+    width: 335px !important;
+    height: auto !important;
+}*/
+  .ie_feature_slider_single p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 8px;
+    border-left: 2px solid #4f4c4d;
+  }
+  .ie_feature_slider_single img {
+    width: 100% !important;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .ie_feature_slider_title h1 {
+    font-size: 27px;
+    line-height: 35px;
+  }
+  .ie_how_does_it_work_main {
+    padding: 75px 0px;
+    background: url("../images/ie-mailer/how-does-work-bg.jpg") no-repeat scroll 15% 0 / cover;
+  }
+  .ie_how_does_it_work .ie_feature_slider_title h3 {
+    padding-left: 0px;
+    border-left: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .iehdiwc_single_contents h3 {
+    letter-spacing: 3px;
+    line-height: 28px;
+  }
+  .iehdiwc_single_contents p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 7px;
+  }
+  .iehdiwc_single_number p {
+    font-size: 16px;
+    width: 27px;
+    height: 27px;
+  }
+  .iehdiw_contents_single {
+    gap: 12px;
+  }
+  .iehdiw_contents {
+    gap: 30px;
+  }
+  .ie_how_does_it_work_contents {
+    margin-top: 55px;
+  }
+  .ie_your_new_audi_main {
+    padding: 75px 0px;
+  }
+  .ie_your_new_audi_contents .btn_style {
+    font-size: 25px !important;
+    padding: 25px 50px !important;
+  }
+  .ie_your_new_audi_contents h2 {
+    font-size: 24px;
+  }
+  .ie_your_new_audi_contents p {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .ie_testimonials_main {
+    padding: 75px 0px 75px 0px;
+    background-image: url("../images/ie-mailer/feature-bg.png");
+    background-size: 27px 27px;
+    position: relative;
+    z-index: 2;
+  }
+  .ie_testimonials_main::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(30.29%, rgba(35, 31, 32, 0.05)),
+        color-stop(72.6%, rgba(17, 15, 15, 0.5)),
+        color-stop(92.31%, #000000)
+      ),
+      -webkit-gradient(linear, left top, left bottom, color-stop(3.48%, #000000), color-stop(26.92%, rgba(17, 15, 15, 0.5)), color-stop(75.96%, rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(top, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
+      -o-linear-gradient(top, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
+    background: linear-gradient(180deg, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
+      linear-gradient(180deg, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
+    z-index: -1;
+  }
+  .ie_have_questions_main {
+    padding: 75px 0px;
+  }
+  .ie_have_questions_title h1 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .ie_have_questions_contents img {
+    max-width: 250px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff6b;
+  }
+  .ie_have_questions_contents h2 {
+    font-family: "QType";
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-size: 18px;
+  }
+  .ie_have_questions_contents a {
+    width: 180px;
+    height: 54px;
+    font-size: 16px;
+  }
+  .ie_have_questions_contents h3 {
+    margin: 15px 0px 35px 0px;
+  }
+  .ie_have_questions_contents {
+    margin-top: 60px;
+  }
+  .ie_mailer_banner h3 {
+    font-size: 19px;
+  }
+  .ie_how_does_it_work .ie_feature_slider_title h3 {
+    font-size: 18px;
+  }
+
+  .banner_img {
+    margin-bottom: 50px;
+  }
+  .ie_xodus_banner_main {
+    padding: 0px 0px 80px 0px;
+  }
+  .ie_xodus_banner p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 15px 0px 25px 0px;
+  }
+  .xodus_offer_main .ieoc_box_title p {
+    font-size: 17px;
+    padding: 13px 0px;
+  }
+  .xodus_oc_box_contents {
+    padding: 50px 30px;
+    gap: 50px;
+  }
+  .xodus_ocbc_pricing h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .xodus_ocbc_pricing h2 del {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .xodus_ocbc_pricing h2 {
+    font-size: 38px !important;
+    line-height: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 3px 0px 2px 0px;
+  }
+  .xodus_review_and_payments {
+    padding: 25px 15px;
+  }
+  .ieocbc_review {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .xodus_discover_audis_potential_main .ie_discover_audis_potential_title p {
+    margin-top: 21px;
+  }
+  .xodus_discover_audis_potential_main .ie_discover_audis_potential_single h4 {
+    font-size: 30px;
+  }
+  .xodus_feature_slider_main .ie_feature_slider_title h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .xodus_how_does_it_work_main .ie_feature_slider_title h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .xodus_how_does_it_work_main .ie_feature_slider_title p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .xodus_how_does_it_work_main .iehdiw_contents {
+    gap: 35px;
+    padding: 30px 20px;
+  }
+  .xodus_how_does_it_work_main .iehdiwc_bottom_single {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc((100% / 2) - 11px);
+    flex: 0 0 calc((100% / 2) - 11px);
+    padding: 22px 8px;
+  }
+  .xodus_how_does_it_work_main .iehdiw_contents_bottom {
+    gap: 22px;
+  }
+  .xodus_how_does_it_work_main .ie_how_does_it_work_contents {
+    gap: 25px;
+  }
+  .iehdiwc_bottom_single h3 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .iehdiwc_bottom_single p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .xodus_your_new_audi_main .ie_feature_slider_title p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 18px;
+  }
+  .xodus_testimonials_main::before {
+    display: none;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents img {
+    max-width: 260px;
+    margin-bottom: 25px;
+    border-bottom: none;
+  }
+  .xodus_have_questions_main .ie_have_questions_title h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .xodus_body h2 {
+    font-family: "Noto Sans", sans-serif;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .member {
+    bottom: 0;
+    right: 0;
+    position: inherit;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .member a img {
+    width: 90px;
+  }
+  .xodus_have_questions_main .ie_have_questions_contents a {
+    width: 250px;
+    height: 85px;
+    font-size: 25px;
+    border: 2px solid #e5e507;
+  }
+  .ie_xodus_banner h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .xodus_testimonials_main .ie_testimonials_item .xodus_testimonials_single_big {
+    padding: 40px 28px 85px 28px;
+  }
+  .future-highlights h2 {
+    font-size: 20px;
+  }
+  .design-main-text-h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 6px;
+  }
+  .installation-pdf {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .installation-time-left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .installation-pdf {
+    padding: 18px 18px;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents img {
+    max-width: 300px;
+    border: none !important;
+  }
+  .ie_have_questions_main2 .ie_have_questions_contents h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .compatibility-span {
+    top: -19px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px 5px;
+    left: -10px;
+  }
+  .compatibility-item h4 {
+    line-height: 16px;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  .compatibility-item p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .compatibility-worning {
+    max-width: 100%;
+    padding-top: 4px;
+  }
+  .compatibility-worning p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .compatibility {
+    gap: 25px;
+  }
+  .icon-menu {
+    gap: 12px;
+  }
+  .product-review-system-card h1 {
+    font-size: 24px;
+    font-family: "FONTSPRING DEMO - DIN 2014";
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .your_next_model_card_img img {
+    height: 168px;
+  }
+  .main-media {
+    height: 400px;
+  }
+  .design-img img {
+    border: none;
+  }
+}
+
+@media all and (max-width: 410px) {
+  .xodus_testimonials_main .ie_testimonials_item .xodus_testimonials_single_big {
+    padding: 40px 28px 28px 28px;
+  }
+  .icon-menu {
+    gap: 8px;
+  }
+}
