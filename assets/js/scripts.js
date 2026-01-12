@@ -58,10 +58,10 @@ $(document).ready(function () {
       dots: true,
       dotsContainer: $dotsContainer,
       autoplay: false,
-      margin: 30,
+      margin: 20,
       responsive: {
         0: {
-          items: 1.4,
+          items: 1,
           nav: false,
         },
         700: {
@@ -114,10 +114,10 @@ $(document).ready(function () {
       dots: true,
       dotsContainer: $dotsContainer,
       autoplay: false,
-      margin: 30,
+      margin: 20,
       responsive: {
         0: {
-          items: 1.2,
+          items: 1,
         },
         480: {
           items: 1.2,
@@ -207,7 +207,7 @@ $(document).ready(function () {
       dots: true,
       dotsContainer: $dotsContainer,
       autoplay: false,
-      margin: 24,
+      margin: 20,
       responsive: {
         0: {
           items: 1.5,
