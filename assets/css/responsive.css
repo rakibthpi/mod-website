@@ -525,9 +525,8 @@
   .section_padding2 {
     padding: 0 10px;
   }
-  .machine-slider {
-    padding: 0;
-    margin: 50px 0;
+  .ie_feature_slider {
+    padding-top: 50px;
   }
   .compatibility-table-title h1 {
     font-size: 38px;
@@ -947,6 +946,61 @@
   }
   .mobile-show-product-review::after {
     background: linear-gradient(180deg, rgb(0 0 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  }
+  .machine-slider {
+    padding: 45px 0;
+  }
+  .ie_feature_slider .owl-carousel .owl-item img {
+    height: 300px !important;
+  }
+  .velocity-bottom .velocity-overlay {
+    padding: 15px 15px;
+    min-height: 300px;
+  }
+  .valocity-container {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .airflow-power {
+    padding-top: 0;
+  }
+  .compatibility-table-title {
+    padding-bottom: 15px;
+  }
+  .airflow-overlay p {
+    font-size: 16px;
+  }
+  .airflow-overlay {
+    padding-bottom: 170px !important;
+  }
+  .airflow-overlay h2 {
+    font-size: 20px !important;
+    line-height: 24px;
+  }
+  .velocity-title {
+    font-size: 20px;
+  }
+  .valocity-main {
+    background: linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(0 0 0 / 16%) 40%, rgb(0 0 0 / 0%) 100%);
+  }
+  .chart-slider-controls {
+    padding-top: 0;
+  }
+  .fitment-notes {
+    flex-direction: column;
+  }
+  .slider-custom-controls {
+    padding-top: 0;
+  }
+  .ie_feature_slider {
+    padding-top: 10px;
+  }
+  .valocity-main {
+    padding: 50px 0px;
+  }
+  .faq-question {
+    padding: 15px 20px;
   }
 }
 

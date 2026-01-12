@@ -118,18 +118,14 @@ $(document).ready(function () {
       responsive: {
         0: {
           items: 1.2,
-          nav: false,
         },
         480: {
           items: 1.2,
-          nav: false,
         },
         768: {
           items: 1.2,
-          nav: false,
         },
         1200: {
-          nav: false,
           items: 1.2,
         },
       },

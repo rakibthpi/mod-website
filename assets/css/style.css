@@ -1918,6 +1918,7 @@ h4 {
   padding: 90px 0;
   overflow: hidden;
   padding-top: 0;
+  background-color: #231f20;
 }
 .machine-slider .ie_feature_slider_single > img {
   height: 285px !important;
@@ -1933,6 +1934,7 @@ h4 {
   max-width: 100% !important;
   width: 100%;
 }
+
 /*  =====================  End Slider section ================== */
 
 /*=================  Start Chart Section  =================*/
@@ -1945,6 +1947,10 @@ h4 {
   border: 1px solid #4f4c4d;
   border-radius: 8px;
   overflow: hidden;
+}
+.chart-main .owl-next,
+.chart-main .owl-prev {
+  display: none !important;
 }
 .chart-bar-area-main::after {
   position: absolute;
