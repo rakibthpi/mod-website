@@ -1093,16 +1093,16 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .your_next_model .your_next_model_text_head h3{
+  .your_next_model .your_next_model_text_head h3 {
     font-size: 24px;
+  }
+  .slider-container {
+    margin: 0 auto;
+    max-width: 95%;
   }
 }
 
 @media all and (max-width: 575px) {
-  .slider-container{
-    margin: 0 auto;
-    max-width: 95%;
-  }
   .ieocbc_button .angle-btn span {
     font-size: 14px;
   }
