@@ -155,41 +155,47 @@ $(document).ready(function () {
       $videoPlayer[0].currentTime = 0;
   });
 
-  // Velocity Section - Background Video Playback (Multiple Instances)
+  // Velocity Section - Inline Video Playback (toggle play/pause with button)
   $('.valocity-main').each(function() {
     var $section = $(this);
-    var $video = $section.find('.velocity-video-bg');
+    var $posterContent = $section.find('.velocity-poster-content');
+    var $videoWrapper = $section.find('.velocity-inline-video-wrapper');
+    var $inlineVideo = $section.find('.velocity-inline-video');
     var $playBtn = $section.find('.velocity-play-btn');
-    var $cta = $section.find('.velocity-cta');
-    var $soundWave = $section.find('.sound-wave-img');
+    var $btnIcon = $playBtn.find('i');
+    var isPlaying = false;
     
-    // Click handler for play button and CTA
-    $playBtn.add($cta).on('click', function(e) {
+    // Click handler for play/pause toggle
+    $playBtn.on('click', function(e) {
       e.preventDefault();
       
-      if ($video.hasClass('playing')) {
-        // Pause video
-        $video[0].pause();
-        $video.removeClass('playing');
-        $playBtn.find('i').removeClass('fa-pause').addClass('fa-play');
-        $soundWave.css('opacity', '0.7');
+      if (isPlaying) {
+        // Pause and close video - show poster
+        $inlineVideo[0].pause();
+        $inlineVideo[0].currentTime = 0;
+        $videoWrapper.hide();
+        $posterContent.show();
+        $btnIcon.removeClass('fa-pause').addClass('fa-play');
+        isPlaying = false;
       } else {
-        // Play video
-        $video.addClass('playing');
-        $video[0].play().catch(function(err) {
+        // Play video - hide poster
+        $posterContent.hide();
+        $videoWrapper.show();
+        $inlineVideo[0].play().catch(function(err) {
           console.log('Autoplay prevented:', err);
         });
-        $playBtn.find('i').removeClass('fa-play').addClass('fa-pause');
-        $soundWave.css('opacity', '0');
+        $btnIcon.removeClass('fa-play').addClass('fa-pause');
+        isPlaying = true;
       }
     });
     
-    // Reset when video ends
-    $video.on('ended', function() {
-      $video.removeClass('playing');
-      $playBtn.find('i').removeClass('fa-pause').addClass('fa-play');
-      $soundWave.css('opacity', '0.7');
-      $video[0].currentTime = 0;
+    // Reset when video ends - show poster again
+    $inlineVideo.on('ended', function() {
+      $videoWrapper.hide();
+      $posterContent.show();
+      $btnIcon.removeClass('fa-pause').addClass('fa-play');
+      $inlineVideo[0].currentTime = 0;
+      isPlaying = false;
     });
   });
 

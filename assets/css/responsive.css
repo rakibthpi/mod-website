@@ -233,6 +233,15 @@
     margin: 0 auto;
     transform: translateY(-58px);
   }
+  .product-main {
+    height: auto;
+  }
+  #sidebar {
+    direction: initial;
+  }
+  .sidebar {
+    justify-content: start;
+  }
 }
 
 @media all and (max-width: 991px) {
@@ -519,9 +528,15 @@
     letter-spacing: 4px;
   }
   .slider-overlay h3 {
-    font-size: 17px;
+    font-size: 22px;
     letter-spacing: 0px;
     line-height: 29px;
+  }
+  .distribution-content {
+    height: 500px;
+  }
+  .ie_feature_slider .owl-carousel .owl-item img {
+    height: 480px !important;
   }
   .airflow-img img {
     max-height: 220px;
@@ -538,9 +553,6 @@
     font-size: 18px;
     padding-top: 13px;
   }
-  .velocity-bottom .velocity-overlay {
-    padding-top: 0;
-  }
   .compatibility-table-title h1 {
     text-align: center;
   }
@@ -553,9 +565,27 @@
   .ie_have_questions_main2 .ie_have_questions_contents a::before {
     border: 2px solid var(--button-main, #f1efee);
   }
+  .inner-container {
+    max-width: 95%;
+  }
+  .slider-container {
+    max-width: 98%;
+  }
+  .ie_feature_slider_header {
+    padding-top: 60px;
+  }
 }
 
 @media all and (max-width: 767px) {
+  .faq-main {
+    padding-top: 36px;
+  }
+  .distribution-content {
+    height: 346px;
+  }
+  .ie_feature_slider_header {
+    padding-top: 30px;
+  }
   .header-mobile-card-design {
     max-width: 380px;
     width: 100%;
@@ -897,7 +927,7 @@
     line-height: 20px;
   }
   .your_next_model_text {
-    padding: 60px 1px 100px 1px;
+    padding: 30px 1px 40px 1px;
   }
   .icon-menu {
     gap: 26px;
@@ -1006,9 +1036,6 @@
   .owl-nav {
     display: none !important;
   }
-  .your_next_model_text {
-    padding: 25px 1px 80px 1px;
-  }
   .distribution-content p {
     font-size: 18px;
     line-height: 24px;
@@ -1017,7 +1044,6 @@
   }
   .distribution-content {
     padding: 40px 15px;
-    padding-bottom: 220px;
   }
   .char-title p {
     font-size: 14px;
@@ -1059,9 +1085,24 @@
   .info-install p {
     font-size: 12px;
   }
+  .installation-pdf {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .your_next_model .your_next_model_text_head h3{
+    font-size: 24px;
+  }
 }
 
 @media all and (max-width: 575px) {
+  .slider-container{
+    margin: 0 auto;
+    max-width: 95%;
+  }
   .ieocbc_button .angle-btn span {
     font-size: 14px;
   }
@@ -1451,14 +1492,7 @@
     font-weight: 700;
     letter-spacing: 6px;
   }
-  .installation-pdf {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 20px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
+
   .installation-time-left {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
@@ -1555,9 +1589,6 @@
   .distribution-content p {
     font-size: 14px;
     line-height: 20px;
-  }
-  .distribution-content {
-    padding-bottom: 140px;
   }
   .distribution-main-inner {
     margin: 40px 0;

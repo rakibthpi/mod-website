@@ -10,6 +10,9 @@ body {
   font-family: "FONTSPRING DEMO - DIN 2014";
   font-weight: normal;
   background: #231f20;
+  background: linear-gradient(0deg, #231f20, #231f20),
+    linear-gradient(178.42deg, rgba(35, 31, 32, 0) 28.92%, rgba(0, 0, 0, 0.65) 31.24%, rgba(0, 0, 0, 0.65) 32.45%),
+    linear-gradient(0.07deg, rgba(35, 31, 32, 0) 84.93%, rgba(0, 0, 0, 0.6237) 89.75%, rgba(0, 0, 0, 0.99) 91.41%);
 
   /*  font-family: 'QType'; 
 		font-family: "Barlow", sans-serif;	*/
@@ -2550,6 +2553,9 @@ h4 {
   padding-bottom: 38px;
   letter-spacing: 6px;
 }
+.your_next_model .your_next_model_text_head h3{
+  font-size: 36px;
+}
 .your_next_model_card_text {
   text-align: center;
   padding: 16px 24px;
@@ -3073,7 +3079,12 @@ span.color-green {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.valocity-main .velocity-title {
+    max-width: 376px;
+}
+.velocity-title-video-paly{
+  max-width: 630px !important;
+}
 .velocity-title {
   font-family: "DIN 2014";
   font-size: 32px;
@@ -3083,7 +3094,7 @@ span.color-green {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 0;
-  max-width: 630px;
+  max-width: 730px;
   width: 100%;
   margin: 0 auto;
 }
@@ -3217,6 +3228,29 @@ span.color-green {
   text-decoration: none;
 }
 
+/* Inline Video Wrapper - plays in poster area */
+.velocity-poster-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.velocity-inline-video-wrapper {
+  width: 100%;
+  max-height: 252px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.velocity-inline-video {
+  width: 100%;
+   max-height: 252px;
+  border-radius: 8px;
+  background: #000;
+}
+
 /* ================== End VELOCITY SECTION STYLES ================== */
 .full-width {
   max-width: 100% !important;
@@ -3298,7 +3332,7 @@ span.color-green {
   z-index: 3;
   text-align: center;
   padding: 60px 5px;
-  padding-bottom: 300px;
+  height: 620px;
   max-width: 670px;
   width: 100%;
 }

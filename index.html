@@ -366,11 +366,22 @@
 
                   <!-- Text Overlay (always on top) -->
                   <div class="velocity-overlay">
-                    <h2 class="velocity-title">DISH UP AN EARFUL OF AMPLIFIED ENGINE NOTES AND TURBO SOUND</h2>
+                    <h2 class="velocity-title velocity-title-video-paly">DISH UP AN EARFUL OF AMPLIFIED ENGINE NOTES AND TURBO SOUND</h2>
 
                     <!-- Sound Wave + Play Button -->
                     <div class="velocity-poster" id="velocity-poster">
-                      <img src="assets/images/banner/sound-wave.png" alt="Sound Wave" class="sound-wave-img" />
+                      <!-- Poster content (visible when not playing) -->
+                      <div class="velocity-poster-content">
+                        <img src="assets/images/banner/sound-wave.png" alt="Sound Wave" class="sound-wave-img" />
+                      </div>
+                      <!-- Inline video player (visible when playing) -->
+                      <div class="velocity-inline-video-wrapper" style="display: none;">
+                        <video class="velocity-inline-video" id="velocity-inline-video" loop muted>
+                          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      <!-- Play/Pause button - always visible for control -->
                       <button class="velocity-play-btn" id="velocity-play-btn">
                         <i class="fa-solid fa-play"></i>
                       </button>
@@ -722,6 +733,7 @@
                         </tr>
                       </thead>
                       <tbody>
+                        <!-- AUDI S3 -->
                         <tr>
                           <td>2021</td>
                           <td>AUDI</td>
@@ -771,6 +783,8 @@
                           <td>2.0T</td>
                           <td>AWD</td>
                         </tr>
+
+                        <!-- AUDI A3 -->
                         <tr>
                           <td>2021</td>
                           <td>AUDI</td>
@@ -807,18 +821,268 @@
                           <td>AWD</td>
                         </tr>
                         <tr>
-                          <td>2017</td>
-                          <td>AUDI</td>
-                          <td>A3</td>
-                          <td>2.0T</td>
-                          <td>AWD</td>
-                        </tr>
-                        <tr>
                           <td>2015</td>
                           <td>AUDI</td>
                           <td>A3</td>
                           <td>2.0T</td>
                           <td>AWD</td>
+                        </tr>
+
+                        <!-- VW GOLF R -->
+                        <tr>
+                          <td>2021</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2018</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2017</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2016</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2015</td>
+                          <td>VW</td>
+                          <td>GOLF R</td>
+                          <td>2.0T</td>
+                          <td>AWD</td>
+                        </tr>
+
+                        <!-- VW GTI -->
+                        <tr>
+                          <td>2021</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2018</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2017</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2016</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2015</td>
+                          <td>VW</td>
+                          <td>GTI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+
+                        <!-- VW GLI -->
+                        <tr>
+                          <td>2024</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2023</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2022</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>GLI</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+
+                        <!-- VW ALLTRACK -->
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>ALLTRACK</td>
+                          <td>1.8T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2018</td>
+                          <td>VW</td>
+                          <td>ALLTRACK</td>
+                          <td>1.8T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2017</td>
+                          <td>VW</td>
+                          <td>ALLTRACK</td>
+                          <td>1.8T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2016</td>
+                          <td>VW</td>
+                          <td>ALLTRACK</td>
+                          <td>1.8T</td>
+                          <td>AWD</td>
+                        </tr>
+                        <tr>
+                          <td>2015</td>
+                          <td>VW</td>
+                          <td>ALLTRACK</td>
+                          <td>1.8T</td>
+                          <td>AWD</td>
+                        </tr>
+
+                        <!-- VW GOLF -->
+                        <tr>
+                          <td>2021</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2018</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2017</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2016</td>
+                          <td>VW</td>
+                          <td>GOLF</td>
+                          <td>1.8T</td>
+                          <td>FWD</td>
+                        </tr>
+
+                        <!-- VW ARTEON -->
+                        <tr>
+                          <td>2022</td>
+                          <td>VW</td>
+                          <td>ARTEON</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2021</td>
+                          <td>VW</td>
+                          <td>ARTEON</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2020</td>
+                          <td>VW</td>
+                          <td>ARTEON</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
+                        </tr>
+                        <tr>
+                          <td>2019</td>
+                          <td>VW</td>
+                          <td>ARTEON</td>
+                          <td>2.0T</td>
+                          <td>FWD</td>
                         </tr>
                       </tbody>
                     </table>
@@ -975,9 +1239,9 @@
                   <!-- Text Content -->
                   <div class="distribution-content">
                     <div class="velocity-overlay">
-                      <p class="velocity-description">
+                      <h2 class="velocity-title">
                         FROM THE SMALLEST DESIGN DETAILS TO CUSTOMER CARE, WE OBSESS OVER EVERY PART OF YOUR EXPERIENCE.
-                      </p>
+                      </h2>
                     </div>
                   </div>
                 </div>
