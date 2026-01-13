@@ -1096,13 +1096,16 @@
   .your_next_model .your_next_model_text_head h3 {
     font-size: 24px;
   }
-  .slider-container {
-    margin: 0 auto;
-    max-width: 95%;
-  }
 }
 
 @media all and (max-width: 575px) {
+  .chat-count-increase h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .ie_feature_slider .owl-carousel .owl-item img {
+    height: 274px !important;
+  }
   .ieocbc_button .angle-btn span {
     font-size: 14px;
   }

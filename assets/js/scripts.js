@@ -61,7 +61,7 @@ $(document).ready(function () {
       margin: 20,
       responsive: {
         0: {
-          items: 1,
+          items: 1.2,
           nav: false,
         },
         575: {
@@ -117,7 +117,7 @@ $(document).ready(function () {
       margin: 20,
       responsive: {
         0: {
-          items: 1,
+          items: 1.2,
         },
         575: {
           items: 1.2,
@@ -216,7 +216,7 @@ $(document).ready(function () {
       margin: 20,
       responsive: {
         0: {
-          items: 1,
+          items: 1.2,
         },
         575: {
           items: 1.2,
@@ -254,39 +254,6 @@ $(document).ready(function () {
       $videoPlayer[0].pause();
       $videoPlayer[0].currentTime = 0;
   });
-
-  // Testimonials Carousel
-  $(".ie_testimonials").owlCarousel({
-    loop: true,
-    autoplay: false,
-    margin: 20,
-    responsive: {
-      0: {
-        items: 1.1,
-        nav: true,
-        dots: true,
-      },
-      575: {
-        items: 1.5,
-      },
-      768: {
-        items: 2.1,
-      },
-      992: {
-        items: 2.8,
-      },
-      1200: {
-        items: 3.5,
-        nav: false,
-        dots: false,
-      },
-      1400: {
-        items: 4,
-      },
-    },
-  });
-  $(".ie_testimonials .owl-prev").html('<i class="fa-solid fa-caret-left"></i>');
-  $(".ie_testimonials .owl-next").html('<i class="fa-solid fa-caret-right"></i>');
 
   // FAQ Accordion - Pure jQuery Implementation
   $(".faq-question").on("click", function () {
