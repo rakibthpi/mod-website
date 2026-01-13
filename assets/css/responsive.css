@@ -930,7 +930,7 @@
     padding: 30px 1px 40px 1px;
   }
   .icon-menu {
-    gap: 26px;
+    gap: 20px;
   }
   .menu-item {
     font-size: 10px;
@@ -1540,7 +1540,7 @@
     gap: 25px;
   }
   .icon-menu {
-    gap: 12px;
+    gap: 10px;
   }
   .product-review-system-card h1 {
     font-size: 24px;
@@ -1651,6 +1651,6 @@
     padding: 40px 28px 28px 28px;
   }
   .icon-menu {
-    gap: 8px;
+    gap: 4px;
   }
 }
