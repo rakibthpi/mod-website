@@ -65,12 +65,12 @@ $(document).ready(function () {
           nav: false,
         },
         700: {
-          items: 1.2,
+          items: 1.1,
           nav: false,
         },
         1400: {
           nav: false,
-          items: 1.6,
+          items: 1.1,
           margin: 26,
         },
       },
@@ -120,13 +120,13 @@ $(document).ready(function () {
           items: 1,
         },
         480: {
-          items: 1.2,
+          items: 1.1,
         },
         768: {
-          items: 1.2,
+          items: 1.1,
         },
         1200: {
-          items: 1.2,
+          items: 1.1,
         },
       },
     });
@@ -213,13 +213,13 @@ $(document).ready(function () {
           items: 1,
         },
         480: {
-          items: 1.2,
+          items: 1.1,
         },
         900: {
-          items: 1.5,
+          items: 1.4,
         },
         1400: {
-          items: 1.5,
+          items: 1.7,
           margin: 30,
         },
       },

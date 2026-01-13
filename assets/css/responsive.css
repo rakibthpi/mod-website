@@ -1,10 +1,9 @@
-@media all and (max-width: 1600px) {
-  .product-review-system-count-single::after {
-    right: -14px;
+@media all and (min-width: 1320px) {
+  .container {
+    max-width: 1440px;
   }
 }
-
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1199px) {
   .right-column {
     width: 30%;
   }
@@ -18,11 +17,6 @@
   .sidebar {
     width: 123px;
   }
-  .section_padding2 {
-    padding: 0 26px;
-  }
-}
-@media all and (max-width: 1199px) {
   .ie_offer {
     gap: 20px;
     -webkit-box-orient: vertical;
@@ -223,12 +217,6 @@
     line-height: 14px;
     letter-spacing: 2.84px;
     font-size: 14px;
-  }
-  .sidebar-line {
-    display: none;
-  }
-  .active-indicator {
-    display: none;
   }
   .product-review-text-top {
     text-align: center;
@@ -521,9 +509,6 @@
   }
   .product-review-system-card-main {
     padding: 16px 10px 10px 10px;
-  }
-  .section_padding2 {
-    padding: 0 10px;
   }
   .ie_feature_slider {
     padding-top: 50px;

@@ -67,13 +67,6 @@ h4 {
 .section_padding {
   padding: 0 24px;
 }
-.section_padding2 {
-  padding: 0 72px;
-}
-.machine-slider .section_padding2 {
-  padding-right: 0;
-}
-
 /*=================  Start Header Section  =================*/
 .header_main {
   padding: 20px 0px;
@@ -1617,18 +1610,16 @@ h4 {
 }
 /*=================  End (HAVE QUESTIONS) Section  =================*/
 
-/*///////////////////////////////////////// Start Intake PDP Page /////////////////////////////////////////*/
-
 .intake_pdp_main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .left-column {
-  width: 75%;
+  width: 74%;
 }
 .right-column {
-  width: 25%;
+  width: 26%;
   padding: 0 0 35px 0;
   background-image: url("../images/ie-mailer/feature-bg.png");
   background-size: 27px 27px;
@@ -1730,6 +1721,7 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 100%;
 }
 .main-content {
   -webkit-box-flex: 1;
@@ -1760,7 +1752,6 @@ h4 {
   background-color: #110f0f;
   padding: 10px;
   overflow-y: auto;
-  max-height: 900px;
   position: relative;
   padding-left: 20px;
 }
@@ -1803,32 +1794,6 @@ h4 {
   width: 100%;
   height: 100%;
 }
-
-/* Sidebar Line (Track) */
-.sidebar-line {
-  position: absolute;
-  left: 5px;
-  top: 10px;
-  bottom: 10px;
-  width: 5px;
-  background-color: #4f4c4d;
-  border-radius: 4px;
-  z-index: 1;
-  height: calc(100% - 35px);
-}
-
-/* New Sliding Indicator Style */
-.active-indicator {
-  position: absolute;
-  left: 5px;
-  width: 5px;
-  background-color: #00b38a;
-  border-radius: 4px;
-  transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1), height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  z-index: 10;
-  pointer-events: none;
-}
-
 .thumbnail {
   width: 120px;
   height: 80px;
@@ -1915,10 +1880,13 @@ h4 {
 
 /*  =====================  Start Slider section ================== */
 .machine-slider {
-  padding: 90px 0;
+  padding-bottom: 90px;
   overflow: hidden;
   padding-top: 0;
   background-color: #231f20;
+}
+.machine-slider .compatibility-table-title {
+  padding-top: 90px;
 }
 .machine-slider .ie_feature_slider_single > img {
   height: 285px !important;
@@ -1979,19 +1947,21 @@ h4 {
   text-align: center;
   padding-bottom: 40px;
 }
-.char-title {
+.char-title h3 {
   text-transform: uppercase;
 }
 .char-title p {
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 1px;
   color: #d9d9d9;
-  text-transform: math-auto;
 }
 .chat-count-increase h4 {
   color: #00b38a;
-  font-family: "DIN 2014";
-  font-weight: 400;
+  font-family: "QType";
+  font-weight: 700;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 32px;
   vertical-align: middle;
 }
 .chat-count-increase p {
@@ -2091,10 +2061,11 @@ h4 {
   font-family: "QType";
   font-size: 48px;
   line-height: 56px;
-  font-weight: 400;
+  font-weight: 700;
   color: #00b38a;
   text-transform: uppercase;
   letter-spacing: 8px;
+  text-align: center;
 }
 .compatibility-table-container {
   border: 1px solid #3a3a3a;
@@ -2331,6 +2302,7 @@ h4 {
 /*=================  End installation Section  =================*/
 .ie_have_questions_main2 {
   padding: 181px 0;
+  background: url('./../images/banner/bg.png') no-repeat scroll 0 0 / cover;
 }
 .ie_have_questions_main2 .ie_have_questions_contents {
   width: 100%;
@@ -2503,7 +2475,7 @@ h4 {
 }
 /*=================  End Mod Gurus Section  =================*/
 /*=================  Start your_next_model Section  =================*/
-.slider-padding-system{
+.slider-padding-system {
   padding-left: 30px;
 }
 .your_next_model {
@@ -2623,8 +2595,14 @@ h4 {
 /*=================  End your_next_model Section  =================*/
 
 /*=================  Start Right site Section  =================*/
+.sidebar,
 .product-review-main {
-  min-height: 100vh;
+  height: calc(100vh - 170px);
+}
+.product-main {
+  height: calc(100vh - 136px);
+}
+.product-review-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2903,6 +2881,7 @@ span.color-green {
 /* Slider Header */
 .ie_feature_slider_header {
   padding-bottom: 10px;
+  padding-top: 90px;
 }
 .ie_feature_slider_header .slider-subtitle {
   font-size: 16px;
@@ -2957,7 +2936,7 @@ span.color-green {
 
 .slider-overlay h3 {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 1px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   margin: 0;
@@ -3060,19 +3039,21 @@ span.color-green {
   position: relative;
   text-align: center;
 }
-.valocity-container {
-  max-width: 710px;
+.inner-container {
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
+}
+.slider-container {
+  max-width: 975px;
+  width: 100%;
+  margin-left: auto;
 }
 /* Top Block: Image as Background */
 
 .velocity-overlay {
   position: relative;
   z-index: 2;
-  margin: 0 auto;
-  max-width: 580px;
-  width: 100%;
   background-image: url("../images/ie-mailer/velocity-bg.jpg");
   background-size: contain;
   background-position: center;
@@ -3081,23 +3062,28 @@ span.color-green {
 
 .velocity-title {
   font-family: "DIN 2014";
-  font-size: 26px;
+  font-size: 32px;
   line-height: 38px;
   font-weight: 600;
   color: #f1efee;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 0;
-  max-width: 500px;
+  max-width: 630px;
   width: 100%;
   margin: 0 auto;
 }
 .velocity-description {
   color: #d9d9d9;
-  font-size: 20px;
+  font-size: 24px;
   padding-top: 15px;
+  line-height: 32px;
 }
-
+.velocity-top {
+  max-width: 710px;
+  width: 100%;
+  margin: 0 auto;
+}
 /* Bottom Block: Video Background */
 .velocity-bottom {
   position: relative;
@@ -3106,7 +3092,6 @@ span.color-green {
   margin-top: 20px;
   overflow: hidden;
   border: 1px solid #4f4c4d;
-  min-height: 350px;
 }
 
 /* Video as Background */
@@ -3156,7 +3141,7 @@ span.color-green {
 
 .sound-wave-img {
   width: 100%;
-  max-width: 350px;
+  max-width: 600px;
   height: auto;
   opacity: 0.7;
   transition: opacity 0.3s ease;
@@ -3268,7 +3253,6 @@ span.color-green {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  margin: 60px 0;
   border-radius: 12px;
 }
 
@@ -3301,18 +3285,103 @@ span.color-green {
   text-align: center;
   padding: 60px 5px;
   padding-bottom: 300px;
-  max-width: 650px;
+  max-width: 670px;
   width: 100%;
-}
-.distribution-content p {
-  font-family: "DIN 2014", "FONTSPRING DEMO - DIN 2014", sans-serif;
-  font-size: 24px;
-  line-height: 38px;
-  font-weight: 600;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin: 0;
 }
 
 /* ================== End DISTRIBUTION SECTION STYLES ================== */
+
+/* ================== Start STICKY LAYOUT STYLES ================== */
+/* Make header sticky */
+.header_main {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Make intake menu sticky below header */
+.intake_menu_main {
+  position: sticky;
+  top: 78px; /* Height of header */
+  z-index: 999;
+  background: #000;
+}
+
+/* Main layout - full viewport height minus header & menu */
+.product-details-intake {
+  height: calc(100vh - 134px);
+  overflow: hidden;
+}
+
+.product-details-intake > .container {
+  height: 100%;
+}
+
+.intake_pdp_main {
+  display: flex;
+  height: 100%;
+}
+
+/* Left column scrollable */
+.product-details-intake .left-column {
+  flex: 1;
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* Right column sticky */
+.product-details-intake .right-column {
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+/* ================== End STICKY LAYOUT STYLES ================== */
+
+/* ================== Start SIDEBAR LEFT SCROLLBAR STYLES ================== */
+
+/* Move #sidebar scrollbar to LEFT side using RTL direction */
+#sidebar {
+  direction: rtl;
+  scrollbar-width: thin;
+  scrollbar-color: #00b38a transparent;
+  height: 100%;
+}
+
+/* Reset direction for content inside sidebar */
+#sidebar > * {
+  direction: ltr;
+}
+
+/* Webkit custom scrollbar for #sidebar - LEFT side */
+#sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00b38a 0%, #00d4a0 100%);
+  border-radius: 10px;
+}
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00d4a0 0%, #00e5b0 100%);
+}
+
+/* ================== End SIDEBAR LEFT SCROLLBAR STYLES ================== */
+
+/* ================== Hide .left-column scrollbar ================== */
+.product-details-intake .left-column {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.product-details-intake .left-column::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+/* ================== End Hide .left-column scrollbar ================== */
