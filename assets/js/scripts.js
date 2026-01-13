@@ -309,4 +309,57 @@ $(document).ready(function () {
       $answer.slideDown(300);
     }
   });
+
+  // ================== SMOOTH SCROLLING & SCROLLSPY ==================
+  
+  // Get the scrollable container (left-column)
+  var $scrollContainer = $('.product-details-intake .left-column');
+  var $menuLinks = $('.intake_menu a[href^="#"]');
+  
+  // Smooth scrolling on menu click
+  $menuLinks.on('click', function(e) {
+    var targetId = $(this).attr('href');
+    if (targetId && targetId !== '#') {
+      var $target = $(targetId);
+      if ($target.length) {
+        e.preventDefault();
+        
+        // Get the offset of target relative to the scroll container
+        var containerScrollTop = $scrollContainer.scrollTop();
+        var targetOffset = $target.offset().top - $scrollContainer.offset().top + containerScrollTop;
+        
+        // Smooth scroll to target
+        $scrollContainer.animate({
+          scrollTop: targetOffset
+        }, 600, 'swing');
+        
+        // Update active state
+        $menuLinks.removeClass('active');
+        $(this).addClass('active');
+      }
+    }
+  });
+  
+  // Scrollspy - update active menu on scroll
+  $scrollContainer.on('scroll', function() {
+    var scrollPos = $scrollContainer.scrollTop();
+    var containerOffset = $scrollContainer.offset().top;
+    
+    // Check each section
+    $menuLinks.each(function() {
+      var targetId = $(this).attr('href');
+      if (targetId && targetId !== '#') {
+        var $target = $(targetId);
+        if ($target.length) {
+          var sectionTop = $target.offset().top - containerOffset + scrollPos - 100;
+          var sectionBottom = sectionTop + $target.outerHeight();
+          
+          if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+            $menuLinks.removeClass('active');
+            $(this).addClass('active');
+          }
+        }
+      }
+    });
+  });
 });
