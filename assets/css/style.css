@@ -3295,6 +3295,9 @@ span.color-green {
 }
 
 /* ================== Start DISTRIBUTION SECTION STYLES ================== */
+.distribution-main{
+  background-color: #000;
+}
 .distribution-main-inner {
   position: relative;
   width: 100%;
