@@ -64,7 +64,7 @@ $(document).ready(function () {
           items: 1,
           nav: false,
         },
-        700: {
+        575: {
           items: 1.2,
           nav: false,
         },
@@ -119,7 +119,7 @@ $(document).ready(function () {
         0: {
           items: 1,
         },
-        480: {
+        575: {
           items: 1.2,
         },
         768: {
@@ -218,7 +218,7 @@ $(document).ready(function () {
         0: {
           items: 1,
         },
-        480: {
+        575: {
           items: 1.2,
         },
         900: {
@@ -266,7 +266,7 @@ $(document).ready(function () {
         nav: true,
         dots: true,
       },
-      480: {
+      575: {
         items: 1.5,
       },
       768: {
