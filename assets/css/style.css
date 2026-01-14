@@ -2553,7 +2553,7 @@ h4 {
   padding-bottom: 38px;
   letter-spacing: 6px;
 }
-.your_next_model .your_next_model_text_head h3{
+.your_next_model .your_next_model_text_head h3 {
   font-size: 36px;
 }
 .your_next_model_card_text {
@@ -2831,12 +2831,14 @@ span.color-green {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  gap: 50px; /* item গুলোর মাঝে space */
+  gap: 50px;
   padding: 20px 0;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .menu-item {
@@ -3080,9 +3082,9 @@ span.color-green {
   background-repeat: no-repeat;
 }
 .valocity-main .velocity-title {
-    max-width: 376px;
+  max-width: 376px;
 }
-.velocity-title-video-paly{
+.velocity-title-video-paly {
   max-width: 630px !important;
 }
 .velocity-title {
@@ -3246,7 +3248,7 @@ span.color-green {
 
 .velocity-inline-video {
   width: 100%;
-   max-height: 252px;
+  max-height: 252px;
   border-radius: 8px;
   background: #000;
 }
@@ -3295,7 +3297,7 @@ span.color-green {
 }
 
 /* ================== Start DISTRIBUTION SECTION STYLES ================== */
-.distribution-main{
+.distribution-main {
   background-color: #000;
 }
 .distribution-main-inner {
