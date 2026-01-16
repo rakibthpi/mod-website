@@ -1545,7 +1545,7 @@
         }, 50);
       });
 
-      // Sidebar click event
+      // Sidebar mouse drag scroll logic (Desktop)
       const slider = document.querySelector(".sidebar");
       let isDown = false;
       let startX;
@@ -1572,24 +1572,6 @@
         const walk = x - startX;
         slider.scrollLeft = scrollLeft - walk;
       });
-      slider.addEventListener(
-        "touchstart",
-        (e) => {
-          startX = e.touches[0].pageX - slider.offsetLeft;
-          scrollLeft = slider.scrollLeft;
-        },
-        {passive: true}
-      );
-
-      slider.addEventListener(
-        "touchmove",
-        (e) => {
-          const x = e.touches[0].pageX - slider.offsetLeft;
-          const walk = x - startX;
-          slider.scrollLeft = scrollLeft - walk;
-        },
-        {passive: true}
-      );
     </script>
   </body>
 </html>

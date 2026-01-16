@@ -146,6 +146,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    touch-action: pan-x;
   }
   .sidebar::-webkit-scrollbar {
     display: none; /* Chrome, Safari */
@@ -1125,6 +1126,9 @@
   .machine-slider .compatibility-table-title {
     padding-top: 30px;
   }
+  .velocity-inline-video{
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -1668,6 +1672,9 @@
   }
   .logo a img {
     width: 30px;
+  }
+  .velocity-inline-video{
+    height: 115px;
   }
 }
 

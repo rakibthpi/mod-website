@@ -1754,6 +1754,7 @@ h4 {
   object-fit: cover;
   display: block;
   border-radius: 0px 8px 0px 8px;
+  pointer-events: none;
 }
 
 .item-label {
@@ -1790,6 +1791,7 @@ h4 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  pointer-events: none;
 }
 
 .play-icon {
