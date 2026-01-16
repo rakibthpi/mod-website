@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html {
@@ -10,6 +11,9 @@ body {
   font-family: "FONTSPRING DEMO - DIN 2014";
   font-weight: normal;
   background: #231f20;
+  background: -o-linear-gradient(bottom, #231f20, #231f20),
+    -o-linear-gradient(271.58deg, rgba(35, 31, 32, 0) 28.92%, rgba(0, 0, 0, 0.65) 31.24%, rgba(0, 0, 0, 0.65) 32.45%),
+    -o-linear-gradient(89.93deg, rgba(35, 31, 32, 0) 84.93%, rgba(0, 0, 0, 0.6237) 89.75%, rgba(0, 0, 0, 0.99) 91.41%);
   background: linear-gradient(0deg, #231f20, #231f20),
     linear-gradient(178.42deg, rgba(35, 31, 32, 0) 28.92%, rgba(0, 0, 0, 0.65) 31.24%, rgba(0, 0, 0, 0.65) 32.45%),
     linear-gradient(0.07deg, rgba(35, 31, 32, 0) 84.93%, rgba(0, 0, 0, 0.6237) 89.75%, rgba(0, 0, 0, 0.99) 91.41%);
@@ -232,15 +236,8 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 0)),
-    color-stop(65.87%, rgba(0, 0, 0, 0.1)),
-    color-stop(96.15%, #000000)
-  );
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 65.87%, #000000 96.15%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(65.87%, rgba(0, 0, 0, 0.1)), color-stop(96.15%, #000000));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 65.87%, #000000 96.15%);
   z-index: -1;
 }
@@ -451,8 +448,8 @@ h4 {
 
 /*=================  Start (DISCOVER AUDI’S FULL POTENTIAL) Section  =================*/
 .ie_discover_audis_potential_main {
-  background: -webkit-gradient(linear, left bottom, left top, from(#1e1e1e), to(#1e1e1e));
   background: -o-linear-gradient(bottom, #1e1e1e, #1e1e1e);
+  background: -webkit-gradient(linear, left bottom, left top, from(#1e1e1e), to(#1e1e1e));
   background: linear-gradient(0deg, #1e1e1e, #1e1e1e);
   padding: 56px 0px;
   position: relative;
@@ -539,17 +536,10 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(30.29%, rgba(35, 31, 32, 0.05)),
-      color-stop(72.6%, rgba(17, 15, 15, 0.5)),
-      color-stop(92.31%, #000000)
-    ),
-    -webkit-gradient(linear, left top, left bottom, color-stop(3.48%, #000000), color-stop(26.92%, rgba(17, 15, 15, 0.5)), color-stop(75.96%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
     -o-linear-gradient(top, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30.29%, rgba(35, 31, 32, 0.05)), color-stop(72.6%, rgba(17, 15, 15, 0.5)), color-stop(92.31%, #000000)),
+    -webkit-gradient(linear, left top, left bottom, color-stop(3.48%, #000000), color-stop(26.92%, rgba(17, 15, 15, 0.5)), color-stop(75.96%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
     linear-gradient(180deg, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
   z-index: -1;
@@ -641,17 +631,10 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(40.45%, rgba(0, 0, 0, 0)),
-      color-stop(57.77%, rgba(0, 0, 0, 0.5)),
-      to(#000000)
-    ),
-    -webkit-gradient(linear, left top, left bottom, color-stop(10.26%, #000000), color-stop(20.7%, rgba(0, 0, 0, 0.5)), color-stop(43.94%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 40.45%, rgba(0, 0, 0, 0.5) 57.77%, #000000 100%),
     -o-linear-gradient(top, #000000 10.26%, rgba(0, 0, 0, 0.5) 20.7%, rgba(0, 0, 0, 0) 43.94%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40.45%, rgba(0, 0, 0, 0)), color-stop(57.77%, rgba(0, 0, 0, 0.5)), to(#000000)),
+    -webkit-gradient(linear, left top, left bottom, color-stop(10.26%, #000000), color-stop(20.7%, rgba(0, 0, 0, 0.5)), color-stop(43.94%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.45%, rgba(0, 0, 0, 0.5) 57.77%, #000000 100%),
     linear-gradient(180deg, #000000 10.26%, rgba(0, 0, 0, 0.5) 20.7%, rgba(0, 0, 0, 0) 43.94%);
   z-index: -1;
@@ -744,8 +727,8 @@ h4 {
 /*=================  Start (YOUR NEW AUDI) Section  =================*/
 .ie_your_new_audi_main {
   padding: 125px 0px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#1e1e1e), to(#1e1e1e));
   background: -o-linear-gradient(bottom, #1e1e1e, #1e1e1e);
+  background: -webkit-gradient(linear, left bottom, left top, from(#1e1e1e), to(#1e1e1e));
   background: linear-gradient(0deg, #1e1e1e, #1e1e1e);
   position: relative;
   z-index: 2;
@@ -878,17 +861,10 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#000000),
-      color-stop(43.27%, rgba(17, 15, 15, 0.5)),
-      color-stop(92.31%, rgba(0, 0, 0, 0))
-    ),
-    -webkit-gradient(linear, left top, left bottom, color-stop(16.83%, rgba(0, 0, 0, 0)), color-stop(61.06%, rgba(17, 15, 15, 0.5)), color-stop(86.26%, #000000));
   background: -o-linear-gradient(top, #000000 0%, rgba(17, 15, 15, 0.5) 43.27%, rgba(0, 0, 0, 0) 92.31%),
     -o-linear-gradient(top, rgba(0, 0, 0, 0) 16.83%, rgba(17, 15, 15, 0.5) 61.06%, #000000 86.26%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(43.27%, rgba(17, 15, 15, 0.5)), color-stop(92.31%, rgba(0, 0, 0, 0))),
+    -webkit-gradient(linear, left top, left bottom, color-stop(16.83%, rgba(0, 0, 0, 0)), color-stop(61.06%, rgba(17, 15, 15, 0.5)), color-stop(86.26%, #000000));
   background: linear-gradient(180deg, #000000 0%, rgba(17, 15, 15, 0.5) 43.27%, rgba(0, 0, 0, 0) 92.31%),
     linear-gradient(180deg, rgba(0, 0, 0, 0) 16.83%, rgba(17, 15, 15, 0.5) 61.06%, #000000 86.26%);
   z-index: -1;
@@ -1183,16 +1159,10 @@ h4 {
   background: #2b4f45;
 }
 .xodus_discover_audis_potential_main::before {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(57.62%, rgba(0, 0, 0, 0)),
-      to(rgba(0, 0, 0, 0.058))
-    ),
-    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(31.88%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 57.62%, rgba(0, 0, 0, 0.058) 100%),
     -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 31.88%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(57.62%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.058))),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(31.88%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.62%, rgba(0, 0, 0, 0.058) 100%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 31.88%);
 }
@@ -1230,16 +1200,10 @@ h4 {
   padding: 125px 0px 125px 0px;
 }
 .xodus_feature_slider_main::before {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(39.5%, rgba(0, 0, 0, 0)),
-      to(rgba(0, 0, 0, 0.2))
-    ),
-    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(37.48%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 39.5%, rgba(0, 0, 0, 0.2) 100%),
     -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 37.48%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(39.5%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(37.48%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.5%, rgba(0, 0, 0, 0.2) 100%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 37.48%);
 }
@@ -1271,21 +1235,15 @@ h4 {
 
 /*=================  Start (HOW DOES IT WORK?) Section  =================*/
 .xodus_how_does_it_work_main {
-  background: -webkit-gradient(linear, left bottom, left top, from(#2b4f45), to(#2b4f45)) !important;
   background: -o-linear-gradient(bottom, #2b4f45, #2b4f45) !important;
+  background: -webkit-gradient(linear, left bottom, left top, from(#2b4f45), to(#2b4f45)) !important;
   background: linear-gradient(0deg, #2b4f45, #2b4f45) !important;
 }
 .xodus_how_does_it_work_main::before {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(57.62%, rgba(0, 0, 0, 0)),
-      to(rgba(0, 0, 0, 0.116))
-    ),
-    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(31.88%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 57.62%, rgba(0, 0, 0, 0.116) 100%),
     -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 31.88%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(57.62%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.116))),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), color-stop(31.88%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.62%, rgba(0, 0, 0, 0.116) 100%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 31.88%);
 }
@@ -1544,18 +1502,12 @@ h4 {
   background: url(../images/xodus/have-question-bg.jpg) no-repeat scroll 0 0 / cover;
 }
 .xodus_have_questions_main::before {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0)),
-      color-stop(94.5%, rgba(0, 0, 0, 0.83))
-    ),
-    -webkit-gradient(linear, left top, left bottom, color-stop(0.35%, rgba(0, 0, 0, 0.7)), color-stop(92.59%, rgba(0, 0, 0, 0))),
-    -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 94.5%),
     -o-linear-gradient(top, rgba(0, 0, 0, 0.7) 0.35%, rgba(0, 0, 0, 0) 92.59%),
     -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(94.5%, rgba(0, 0, 0, 0.83))),
+    -webkit-gradient(linear, left top, left bottom, color-stop(0.35%, rgba(0, 0, 0, 0.7)), color-stop(92.59%, rgba(0, 0, 0, 0))),
+    -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 94.5%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0.35%, rgba(0, 0, 0, 0) 92.59%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
@@ -1809,8 +1761,8 @@ h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.8)));
   background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.8)));
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
   color: white;
   font-size: 10px;
@@ -1989,14 +1941,24 @@ h4 {
   width: 100%;
 }
 .chart-slider-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px 0;
 }
 .chart-dots-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 8px;
 }
 .chart-dots-container .owl-dot span {
@@ -2007,6 +1969,8 @@ h4 {
   border-radius: 50%;
   border: 1px solid #d9d9d9;
   display: block;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .chart-dots-container .owl-dot.active span,
@@ -2028,10 +1992,18 @@ h4 {
   background: transparent;
   border: 2px solid #00b38a;
   color: #00b38a;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-left: 15px;
 }
@@ -2083,6 +2055,8 @@ h4 {
   background-color: #000000;
 }
 .compatibility-table-container thead th {
+  background: -webkit-gradient(linear, left top, left bottom, from(#111), to(#000));
+  background: -o-linear-gradient(top, #111, #000);
   background: linear-gradient(to bottom, #111, #000);
   padding: 18px 10px;
   font-size: 13px;
@@ -2136,13 +2110,20 @@ h4 {
   border: 1px solid #4f4c4d;
 }
 .fitment-notes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   gap: 10px;
   margin-top: 10px;
   border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0c0c0c), to(#000));
+  background: -o-linear-gradient(top, #0c0c0c, #000);
   background: linear-gradient(to bottom, #0c0c0c, #000);
-  box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.03);
+  -webkit-box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.03);
+          box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.03);
 }
 
 /* Left label box */
@@ -2151,14 +2132,20 @@ h4 {
   padding: 10px 14px;
   border: 1px solid #3a3a3a;
   border-radius: 6px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#111), to(#000));
+  background: -o-linear-gradient(top, #111, #000);
   background: linear-gradient(to bottom, #111, #000);
   color: #ffffff;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
   white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .fitment-notes-label span {
   font-size: 19px;
@@ -2181,8 +2168,13 @@ h4 {
   border: 1px solid #3a3a3a;
   border-radius: 6px;
   padding: 10px 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
 }
 
@@ -2217,8 +2209,13 @@ h4 {
   letter-spacing: 3px;
 }
 .faq-accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 16px;
 }
 .faq-item {
@@ -2241,11 +2238,19 @@ h4 {
 .faq-question {
   position: relative;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 24px 28px;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .faq-question:hover {
@@ -2263,16 +2268,29 @@ h4 {
   height: 28px;
   border: 1px solid #666;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .faq-icon i {
   font-size: 12px;
   color: #999;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 /* Active state - when collapse is shown */
 .faq-item.active .faq-icon {
@@ -2281,7 +2299,9 @@ h4 {
 }
 .faq-item.active .faq-icon i {
   color: #000;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .faq-answer {
   position: relative;
@@ -2323,6 +2343,9 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
+  background: -o-linear-gradient(bottom, #000000, #000000),
+    -o-linear-gradient(84.93deg, rgba(0, 0, 0, 0) 5.06%, rgba(0, 0, 0, 0.5) 96.91%),
+    -o-linear-gradient(264.93deg, rgba(0, 0, 0, 0) 3.09%, rgba(0, 0, 0, 0.5) 94.94%);
   background: linear-gradient(0deg, #000000, #000000),
     linear-gradient(5.07deg, rgba(0, 0, 0, 0) 5.06%, rgba(0, 0, 0, 0.5) 96.91%),
     linear-gradient(185.07deg, rgba(0, 0, 0, 0) 3.09%, rgba(0, 0, 0, 0.5) 94.94%);
@@ -2390,6 +2413,12 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#000000)),
+    -webkit-gradient(linear, left top, left bottom, color-stop(25.65%, rgba(0, 0, 0, 0)), color-stop(62.47%, rgba(17, 15, 15, 0.25)), color-stop(89.78%, rgba(0, 0, 0, 0.5))),
+    -webkit-gradient(linear, left bottom, left top, color-stop(44.65%, rgba(0, 0, 0, 0)), color-stop(72.06%, rgba(17, 15, 15, 0.25)), color-stop(92.39%, rgba(0, 0, 0, 0.5)));
+  background: -o-linear-gradient(bottom, #000000, #000000),
+    -o-linear-gradient(top, rgba(0, 0, 0, 0) 25.65%, rgba(17, 15, 15, 0.25) 62.47%, rgba(0, 0, 0, 0.5) 89.78%),
+    -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 44.65%, rgba(17, 15, 15, 0.25) 72.06%, rgba(0, 0, 0, 0.5) 92.39%);
   background: linear-gradient(0deg, #000000, #000000),
     linear-gradient(180deg, rgba(0, 0, 0, 0) 25.65%, rgba(17, 15, 15, 0.25) 62.47%, rgba(0, 0, 0, 0.5) 89.78%),
     linear-gradient(360deg, rgba(0, 0, 0, 0) 44.65%, rgba(17, 15, 15, 0.25) 72.06%, rgba(0, 0, 0, 0.5) 92.39%);
@@ -2507,17 +2536,10 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(30.29%, rgba(35, 31, 32, 0.05)),
-      color-stop(72.6%, rgba(17, 15, 15, 0.5)),
-      color-stop(92.31%, #000000)
-    ),
-    -webkit-gradient(linear, left top, left bottom, color-stop(3.48%, #000000), color-stop(26.92%, rgba(17, 15, 15, 0.5)), color-stop(75.96%, rgba(0, 0, 0, 0)));
   background: -o-linear-gradient(top, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
     -o-linear-gradient(top, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30.29%, rgba(35, 31, 32, 0.05)), color-stop(72.6%, rgba(17, 15, 15, 0.5)), color-stop(92.31%, #000000)),
+    -webkit-gradient(linear, left top, left bottom, color-stop(3.48%, #000000), color-stop(26.92%, rgba(17, 15, 15, 0.5)), color-stop(75.96%, rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(35, 31, 32, 0.05) 30.29%, rgba(17, 15, 15, 0.5) 72.6%, #000000 92.31%),
     linear-gradient(180deg, #000000 3.48%, rgba(17, 15, 15, 0.5) 26.92%, rgba(0, 0, 0, 0) 75.96%);
   z-index: -1;
@@ -2570,9 +2592,16 @@ h4 {
   border: 1px solid #4f4c4d;
   margin-top: 5px;
   height: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .your_next_model_card_text::after {
   position: absolute;
@@ -2717,8 +2746,12 @@ span.color-green {
 
 /* item separet  */
 .product-review-system-amount-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 10px;
 }
 .product-review-system-amount-logo a img {
@@ -2936,7 +2969,8 @@ span.color-green {
   display: block;
 }
 .ie_feature_slider .owl-carousel .owl-item img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 600px !important;
   background-position: center !important;
 }
@@ -2948,13 +2982,21 @@ span.color-green {
   left: 0;
   width: 100%;
   padding: 30px 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0 0 0)), color-stop(10%, rgb(0 0 0)), color-stop(50%, rgb(0 0 0 / 44%)), to(rgb(0 0 0 / 0%)));
+  background: -o-linear-gradient(top, rgb(0 0 0) 0%, rgb(0 0 0) 10%, rgb(0 0 0 / 44%) 50%, rgb(0 0 0 / 0%) 100%);
   background: linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(0 0 0) 10%, rgb(0 0 0 / 44%) 50%, rgb(0 0 0 / 0%) 100%);
   text-align: center;
   pointer-events: none;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .slider-overlay h3 {
@@ -2970,15 +3012,25 @@ span.color-green {
 /* Custom Controls */
 .slider-custom-controls {
   padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* Dots Styling */
 .custom-dots-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .custom-dots-container .owl-dot {
@@ -2989,6 +3041,8 @@ span.color-green {
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border: none;
   padding: 0;
@@ -2997,7 +3051,9 @@ span.color-green {
 .custom-dots-container .owl-dot.active,
 .custom-dots-container .owl-dot:hover {
   background: #ccc;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Play Button */
@@ -3007,12 +3063,20 @@ span.color-green {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #aaa;
   margin-left: 15px;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   outline: none;
 }
@@ -3020,7 +3084,9 @@ span.color-green {
 .play-btn:hover {
   background: #555;
   color: #fff;
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .play-btn i {
@@ -3055,6 +3121,8 @@ span.color-green {
 /* ================== Start VELOCITY SECTION STYLES ================== */
 
 .valocity-main {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0 0 0)), color-stop(40%, rgb(0 0 0)), to(rgb(0 0 0 / 0%)));
+  background: -o-linear-gradient(top, rgb(0 0 0) 0%, rgb(0 0 0) 40%, rgb(0 0 0 / 0%) 100%);
   background: linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(0 0 0) 40%, rgb(0 0 0 / 0%) 100%);
   padding: 100px 0px;
 }
@@ -3129,9 +3197,12 @@ span.color-green {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 1;
   opacity: 0;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
 .velocity-video-bg.playing {
@@ -3150,20 +3221,38 @@ span.color-green {
   position: relative;
   z-index: 10;
   padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 350px;
 }
 
 /* Poster & Play Button */
 .velocity-poster {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 20px 0;
 }
 
@@ -3172,6 +3261,8 @@ span.color-green {
   max-width: 600px;
   height: auto;
   opacity: 0.7;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 
@@ -3183,7 +3274,9 @@ span.color-green {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -3191,10 +3284,18 @@ span.color-green {
   border: 3px solid #fff;
   color: #fff;
   font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   outline: none;
 }
@@ -3205,7 +3306,9 @@ span.color-green {
 
 .velocity-play-btn:hover {
   background-color: rgba(255, 255, 255, 0.15);
-  transform: translate(-50%, -50%) scale(1.08);
+  -webkit-transform: translate(-50%, -50%) scale(1.08);
+      -ms-transform: translate(-50%, -50%) scale(1.08);
+          transform: translate(-50%, -50%) scale(1.08);
 }
 
 .velocity-play-btn.hidden {
@@ -3223,6 +3326,8 @@ span.color-green {
   letter-spacing: 2px;
   margin-top: 10px;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
@@ -3234,10 +3339,19 @@ span.color-green {
 /* Inline Video Wrapper - plays in poster area */
 .velocity-poster-content {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .velocity-inline-video-wrapper {
@@ -3274,8 +3388,12 @@ span.color-green {
   border: none !important;
 }
 .airflow-overlay {
-  align-items: start !important;
-  justify-content: start !important;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
   padding-bottom: 300px !important;
 }
 .airflow-overlay h2 {
@@ -3305,8 +3423,12 @@ span.color-green {
   position: relative;
   width: 100%;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 12px;
 }
 
@@ -3317,7 +3439,8 @@ span.color-green {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: 1;
 }
 
@@ -3372,13 +3495,17 @@ span.color-green {
 }
 
 .intake_pdp_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
 }
 
 /* Left column scrollable */
 .product-details-intake .left-column {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   overflow-y: auto;
   height: 100%;
 }
@@ -3387,6 +3514,8 @@ span.color-green {
 .product-details-intake .right-column {
   position: sticky;
   top: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   max-height: 100%;
   overflow-y: auto;
@@ -3419,11 +3548,13 @@ span.color-green {
 }
 
 #sidebar::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00b38a), to(#00d4a0));
   background: linear-gradient(180deg, #00b38a 0%, #00d4a0 100%);
   border-radius: 10px;
 }
 
 #sidebar::-webkit-scrollbar-thumb:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00d4a0), to(#00e5b0));
   background: linear-gradient(180deg, #00d4a0 0%, #00e5b0 100%);
 }
 
