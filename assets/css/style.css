@@ -3572,3 +3572,8 @@ span.color-green {
   display: none; /* Chrome, Safari, Opera */
 }
 /* ================== End Hide .left-column scrollbar ================== */
+
+/* Sidebar specific fix for iOS */
+.sidebar-item {
+  cursor: pointer;
+}
