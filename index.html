@@ -1534,8 +1534,28 @@
             currentMedia = null;
           }
         }
-        $(".sidebar-item").on("click", function () {
-          loadMedia($(this));
+        // Variable to track scrolling
+        let isDragging = false;
+        // Detect scroll/drag
+        $(document).on("touchmove", ".sidebar-item", function() {
+            isDragging = true;
+        });
+        $(document).on("touchstart", ".sidebar-item", function() {
+            isDragging = false;
+        });
+
+        // Handle Click and Touchend with delegation
+        $(document).on("click touchend", ".sidebar-item", function (e) {
+             // If it's a touchend event and we were dragging, ignore it
+            if (e.type === "touchend" && isDragging) {
+                return;
+            }
+            // Prevent default to avoid double-firing if both events happen, 
+            // though with delegation + loadMedia it's usually fine. 
+            // Primarily prevents ghost clicks on some mobile browsers.
+            e.preventDefault(); 
+            
+            loadMedia($(this));
         });
         const $default = $(".sidebar-item.active").length ? $(".sidebar-item.active") : $(".sidebar-item:first");
 
