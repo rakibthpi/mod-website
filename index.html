@@ -1534,28 +1534,38 @@
             currentMedia = null;
           }
         }
-        // Variable to track scrolling
-        let isDragging = false;
-        // Detect scroll/drag
-        $(document).on("touchmove", ".sidebar-item", function() {
-            isDragging = true;
-        });
-        $(document).on("touchstart", ".sidebar-item", function() {
-            isDragging = false;
+        // Variables to track touch coordinates
+        let touchStartX = 0;
+        let touchStartY = 0;
+
+        $(document).on("touchstart", ".sidebar-item", function(e) {
+            const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+            touchStartX = touch.pageX;
+            touchStartY = touch.pageY;
         });
 
-        // Handle Click and Touchend with delegation
-        $(document).on("click touchend", ".sidebar-item", function (e) {
-             // If it's a touchend event and we were dragging, ignore it
-            if (e.type === "touchend" && isDragging) {
-                return;
-            }
-            // Prevent default to avoid double-firing if both events happen, 
-            // though with delegation + loadMedia it's usually fine. 
-            // Primarily prevents ghost clicks on some mobile browsers.
-            e.preventDefault(); 
+        // Handle Touchend with threshold
+        $(document).on("touchend", ".sidebar-item", function (e) {
+            const touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+            const touchEndX = touch.pageX;
+            const touchEndY = touch.pageY;
             
-            loadMedia($(this));
+            const deltaX = Math.abs(touchEndX - touchStartX);
+            const deltaY = Math.abs(touchEndY - touchStartY);
+
+            // Threshold for "tap" vs "scroll" (allow 10px movement)
+            if (deltaX < 10 && deltaY < 10) {
+                // Prevent default to stop ghost clicks and ensure IOS firing
+                e.preventDefault(); 
+                loadMedia($(this));
+            }
+        });
+
+        // Fallback for non-touch devices (Desktop)
+        $(document).on("click", ".sidebar-item", function (e) {
+             // If a touch event already handled this, preventDefault in touchend 
+             // mimics stopping propagation. But for safety, we can check basic validity.
+             loadMedia($(this));
         });
         const $default = $(".sidebar-item.active").length ? $(".sidebar-item.active") : $(".sidebar-item:first");
 
